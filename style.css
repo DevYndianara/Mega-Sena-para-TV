@@ -1,0 +1,43 @@
+/*Cabeçalho*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px red solid;
+}
+h1 {
+
+
+}
+/*Estilização container números*/
+.container{
+    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/*Parágrafo e tabela*/
+ul, li {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 20px 20px;
+    gap: 50px;
+    border: 1px red solid;
+}
+p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+table {
+    display: flex;
+    justify-content: center;
+    border: 1px red solid;
+}
+tr {
+    justify-content: space-between;
+    display: flex;
+}
