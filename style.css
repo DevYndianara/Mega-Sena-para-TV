@@ -1,21 +1,25 @@
 /*Cabeçalho*/
 body {
-    background-image: url(/19035810632013.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
     background-size: 150%;
 }
 header {
-    display: flex;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    justify-content: center;
+   /*box-sizing: border-box;*/
+    text-align: center;
+    margin-top: 100px;
 }
-h1, h2 {
+h1 {
+    color: #b38600;
+    font-size: 60px;
+    padding: 20px;
+}
+h2, h3 {
     color: rgb(10, 10, 10);
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
 }
 /*Estilização container números*/
 .container{
@@ -25,35 +29,20 @@ h1, h2 {
     /*padding: 0.5rem;*/
     margin: 1.5rem 0 0 0;
 }
-/*Parágrafo, números e tabela*/
 ul {
     list-style: none;
     align-items: center;
     display: flex;
-    gap: 25px;
+    gap: 60px;
 }
-li {git
+li {
     border-radius: 50%;
     width: 60px;
     height: 60%;
+    margin-bottom: 30px;
     text-align: center;
     font-weight: bold;
-    font-size: 60px;
-    border: 3px #b38600 solid;
-}
-p {
-    text-align: center;
-    display: inline-block;
-    justify-content: space-between;
-    padding: 1rem;  
-    font-weight: bold;
-    font-size: 60px;
-    color: #000;
-}
-.ac {
-    font-size: 60px;
-    flex-direction: row;
-    align-items: center;
+    font-size: 80px;
 }
 table {
     justify-content: space-between; /*Alinhamento horizontal*/
@@ -66,11 +55,11 @@ table {
     font-weight: bold;
 }
 .cod {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #000000;
 }
 .numb {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(0, 0, 0);
 }
 td {
