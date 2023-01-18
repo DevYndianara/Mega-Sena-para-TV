@@ -1,43 +1,91 @@
 /*Cabeçalho*/
+body {
+    background-image: url(/19035810632013.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: 150%;
+}
+nav {
+    justify-content: space-between;
+    display: flex;
+}
+img {
+
+}
 header {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: 1px red solid;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
 }
-h1 {
-
-
+h1, h2 {
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    font-size: 40px;
 }
 /*Estilização container números*/
 .container{
-    border: 1px red solid;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center; 
+    /*padding: 0.5rem;*/
+    margin: 1.5rem 0 0 0;
 }
-
-/*Parágrafo e tabela*/
-ul, li {
+/*Parágrafo, números e tabela*/
+ul {
     list-style: none;
-    justify-content: space-between;
     align-items: center;
     display: flex;
-    padding: 20px 20px;
-    gap: 50px;
-    border: 1px red solid;
+    gap: 25px;
+}
+li {
+    border-radius: 50%;
+    width: 60px;
+    height: 60%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    border: 3px #b38600 solid;
 }
 p {
-    display: flex;
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 1rem;  
+    font-weight: bold;
+    font-size: 60px;
+    color: #000;
+}
+.ac {
+    font-size: 60px;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-around;    
 }
 table {
-    display: flex;
-    justify-content: center;
-    border: 1px red solid;
+    justify-content: space-between; /*Alinhamento horizontal*/
+    border: 3px #dede16 solid;
+    padding: 0.5rem 2rem 0  2rem;
+    margin-left: 30%;
+    width: 40%;
+    height: 30%;
+    border-radius: 1rem;
+    font-weight: bold;
 }
-tr {
-    justify-content: space-between;
-    display: flex;
+.cod {
+    font-size: 2rem;
+    color: #000000;
+}
+.numb {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+td {
+    padding: 0.5rem;
+    text-align: center;
+    justify-content: space-around;
+}
+tbody td {
+    border-bottom: 1px solid #000;
 }
